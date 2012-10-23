@@ -126,7 +126,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/valentewx/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
   vendor/htc/valentewx/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/valentewx/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-  vendor/htc/valentewx/proprietary/lib/hw/sensors.valentewx.so:system/lib/hw/sensors.valentewx.so \
+  vendor/htc/valentewx/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
   vendor/htc/valentewx/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/valentewx/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/valentewx/proprietary/lib/libmpl.so:system/lib/libmpl.so \
