@@ -91,7 +91,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
   vendor/htc/dlxj/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
   vendor/htc/dlxj/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-  vendor/htc/dlxj/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
+  vendor/htc/dlxj/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
   vendor/htc/dlxj/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/dlxj/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/dlxj/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
