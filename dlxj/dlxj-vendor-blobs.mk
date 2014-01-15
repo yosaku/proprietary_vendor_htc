@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
   vendor/htc/dlxj/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/dlxj/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+  vendor/htc/dlxj/proprietary/lib/libCB.so:system/lib/libCB.so \
   vendor/htc/dlxj/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
   vendor/htc/dlxj/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/dlxj/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
