@@ -137,6 +137,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
   vendor/htc/dlxj/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
   vendor/htc/dlxj/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
+  vendor/htc/dlxj/proprietary/lib/libExtendedExtractor.so:/system/lib/libExtendedExtractor.so \
   vendor/htc/dlxj/proprietary/etc/firmware/hcheck.b00:system/etc/firmware/hcheck.b00 \
   vendor/htc/dlxj/proprietary/etc/firmware/hcheck.b01:system/etc/firmware/hcheck.b01 \
   vendor/htc/dlxj/proprietary/etc/firmware/hcheck.b02:system/etc/firmware/hcheck.b02 \
