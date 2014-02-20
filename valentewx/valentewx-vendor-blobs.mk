@@ -42,4 +42,15 @@ PRODUCT_COPY_FILES += \
         vendor/htc/valentewx/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
         vendor/htc/valentewx/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
         vendor/htc/valentewx/proprietary/lib/libril-qc-qmi-1.so:/system/lib/libril-qc-qmi-1.so \
-        vendor/htc/valentewx/proprietary/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so
+        vendor/htc/valentewx/proprietary/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
+	vendor/htc/valentewx/proprietary/bin/felica_agent:/system/bin/felica_agent \
+	vendor/htc/valentewx/proprietary/bin/felica_daemon:/system/bin/felica_daemon \
+	vendor/htc/valentewx/proprietary/bin/felica_startup:/system/bin/felica_startup \
+	vendor/htc/valentewx/proprietary/etc/felica/common.cfg:/system/etc/felica/common.cfg \
+	vendor/htc/valentewx/proprietary/etc/felica/mfm.cfg:/system/etc/felica/mfm.cfg \
+	vendor/htc/valentewx/proprietary/etc/felica/mfs.cfg:/system/etc/felica/mfs.cfg \
+        vendor/htc/valentewx/proprietary/app/KDDI_Felicalock.apk:/system/app/KDDI_Felicalock.apk \
+        vendor/htc/valentewx/proprietary/app/MobileFeliCaClient.apk:/system/app/MobileFeliCaClient.apk \
+        vendor/htc/valentewx/proprietary/app/MobileFeliCaMenuApp.apk:/system/app/MobileFeliCaMenuApp.apk \
+        vendor/htc/valentewx/proprietary/app/MobileFeliCaSettingApp.apk:/system/app/MobileFeliCaSettingApp.apk \
+        vendor/htc/valentewx/proprietary/app/MobileFeliCaWebPluginBoot.apk:/system/app/MobileFeliCaWebPluginBoot.apk
