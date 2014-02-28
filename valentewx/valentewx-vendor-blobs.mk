@@ -43,12 +43,21 @@ PRODUCT_COPY_FILES += \
         vendor/htc/valentewx/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
         vendor/htc/valentewx/proprietary/lib/libril-qc-qmi-1.so:/system/lib/libril-qc-qmi-1.so \
         vendor/htc/valentewx/proprietary/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
+	vendor/htc/valentewx/proprietary/lib/libBMLSupports.so:/system/lib/libBMLSupperts.so \
+	vendor/htc/valentewx/proprietary/lib/libCdAbLayer.so:/system/lib/libCdAbLayer.so \
+	vendor/htc/valentewx/proprietary/lib/libJellyPG.so:/system/lib/libJellyPG.so \
+	vendor/htc/valentewx/proprietary/lib/libMTVMFCls.so:/system/lib/libMTVMFCls.so \
+	vendor/htc/valentewx/proprietary/lib/libnm325.so:/system/lib/libnm325.so \
+	vendor/htc/valentewx/proprietary/bin/jellyservice:/system/bin/jellyservice \
+	vendor/htc/valentewx/proprietary/bin/mtvmfservice:/system/bin/mtvmfservice \
+	vendor/htc/valentewx/proprietary/bin/mtvmfrecservice:/system/bin/mtvmfrecservice \
 	vendor/htc/valentewx/proprietary/bin/felica_agent:/system/bin/felica_agent \
 	vendor/htc/valentewx/proprietary/bin/felica_daemon:/system/bin/felica_daemon \
 	vendor/htc/valentewx/proprietary/bin/felica_startup:/system/bin/felica_startup \
 	vendor/htc/valentewx/proprietary/etc/felica/common.cfg:/system/etc/felica/common.cfg \
 	vendor/htc/valentewx/proprietary/etc/felica/mfm.cfg:/system/etc/felica/mfm.cfg \
 	vendor/htc/valentewx/proprietary/etc/felica/mfs.cfg:/system/etc/felica/mfs.cfg \
+	vendor/htc/valentewx/proprietary/app/GMobileTV.apk:/system/app/GMobileTV.apk \
         vendor/htc/valentewx/proprietary/app/KDDI_Felicalock.apk:/system/app/KDDI_Felicalock.apk \
         vendor/htc/valentewx/proprietary/app/MobileFeliCaClient.apk:/system/app/MobileFeliCaClient.apk \
         vendor/htc/valentewx/proprietary/app/MobileFeliCaMenuApp.apk:/system/app/MobileFeliCaMenuApp.apk \
