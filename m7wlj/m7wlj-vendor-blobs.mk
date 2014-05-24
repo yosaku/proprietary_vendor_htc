@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7wlj/proprietary/etc/felica/yodo_android_72x72.png:/system/etc/felica/yodo_android_72x72.png \
         vendor/htc/m7wlj/proprietary/etc/felica/mfm.cfg:/system/etc/felica/mfm.cfg \
         vendor/htc/m7wlj/proprietary/etc/felica/mfs.cfg:/system/etc/felica/mfs.cfg \
-        vendor/htc/m7wlj/proprietary/etc/felica/mfc_falp.cfg:/system/etc/felica/mfc_falp.cfg
+        vendor/htc/m7wlj/proprietary/etc/felica/mfc_falp.cfg:/system/etc/felica/mfc_falp.cfg \
         vendor/htc/m7wlj/proprietary/app/KDDI_Felicalock.apk:/system/app/KDDI_Felicalock.apk \
         vendor/htc/m7wlj/proprietary/app/MobileFeliCaClient.apk:/system/app/MobileFeliCaClient.apk \
         vendor/htc/m7wlj/proprietary/app/MobileFeliCaMenuApp.apk:/system/app/MobileFeliCaMenuApp.apk \
