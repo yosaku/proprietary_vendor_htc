@@ -37,12 +37,24 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7wlj/proprietary/lib/libril-qc-qmi-1.so:/system/lib/libril-qc-qmi-1.so \
         vendor/htc/m7wlj/proprietary/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
 	vendor/htc/m7wlj/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
-	vendor/htc/m7wlj/proprietary/bin/felica_agent:/system/bin/felica_agent \
-	vendor/htc/m7wlj/proprietary/bin/felica_daemon:/system/bin/felica_daemon \
-	vendor/htc/m7wlj/proprietary/bin/felica_startup:/system/bin/felica_startup \
-	vendor/htc/m7wlj/proprietary/etc/felica/common.cfg:/system/etc/felica/common.cfg \
-	vendor/htc/m7wlj/proprietary/etc/felica/mfm.cfg:/system/etc/felica/mfm.cfg \
-	vendor/htc/m7wlj/proprietary/etc/felica/mfs.cfg:/system/etc/felica/mfs.cfg \
+        vendor/htc/m7wlj/proprietary/bin/felica_agent:/system/bin/felica_agent \
+        vendor/htc/m7wlj/proprietary/bin/felica_daemon:/system/bin/felica_daemon \
+        vendor/htc/m7wlj/proprietary/bin/felica_startup:/system/bin/felica_startup \
+        vendor/htc/m7wlj/proprietary/etc/felica/ana.png:/system/etc/felica/ana.png \
+        vendor/htc/m7wlj/proprietary/etc/felica/biccameralogo.png:/system/etc/felica/biccameralogo.png \
+        vendor/htc/m7wlj/proprietary/etc/felica/bookmark.cfg:/system/etc/felica/bookmark.cfg \
+        vendor/htc/m7wlj/proprietary/etc/felica/common.cfg:/system/etc/felica/common.cfg \
+        vendor/htc/m7wlj/proprietary/etc/felica/edy.png:/system/etc/felica/edy.png \
+        vendor/htc/m7wlj/proprietary/etc/felica/jre.PNG:/system/etc/felica/jre.PNG \
+        vendor/htc/m7wlj/proprietary/etc/felica/Mcd_icon_72_ili.png:/system/etc/felica/Mcd_icon_72_ili.png \
+        vendor/htc/m7wlj/proprietary/etc/felica/portal_icon.png:/system/etc/felica/portal_icon.png \
+        vendor/htc/m7wlj/proprietary/etc/felica/QP_logo.PNG:/system/etc/felica/QP_logo.PNG \
+        vendor/htc/m7wlj/proprietary/etc/felica/toku.png:/system/etc/felica/toku.png \
+        vendor/htc/m7wlj/proprietary/etc/felica/waonicon.png:/system/etc/felica/waonicon.png \
+        vendor/htc/m7wlj/proprietary/etc/felica/yodo_android_72x72.png:/system/etc/felica/yodo_android_72x72.png \
+        vendor/htc/m7wlj/proprietary/etc/felica/mfm.cfg:/system/etc/felica/mfm.cfg \
+        vendor/htc/m7wlj/proprietary/etc/felica/mfs.cfg:/system/etc/felica/mfs.cfg \
+        vendor/htc/m7wlj/proprietary/etc/felica/mfc_falp.cfg:/system/etc/felica/mfc_falp.cfg
         vendor/htc/m7wlj/proprietary/app/KDDI_Felicalock.apk:/system/app/KDDI_Felicalock.apk \
         vendor/htc/m7wlj/proprietary/app/MobileFeliCaClient.apk:/system/app/MobileFeliCaClient.apk \
         vendor/htc/m7wlj/proprietary/app/MobileFeliCaMenuApp.apk:/system/app/MobileFeliCaMenuApp.apk \
