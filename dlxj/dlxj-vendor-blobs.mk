@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
   vendor/htc/dlxj/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/dlxj/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-  vendor/htc/dlxj/proprietary/lib/libCB.so:system/lib/libCB.so \
   vendor/htc/dlxj/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
   vendor/htc/dlxj/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/dlxj/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
@@ -167,9 +166,11 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:/system/vendor/lib/egl/libGLESv1_CM_adreno.so \
   vendor/htc/dlxj/proprietary/vendor/lib/egl/libGLESv2_adreno.so:/system/vendor/lib/egl/libGLESv2_adreno.so \
   vendor/htc/dlxj/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:/system/vendor/lib/egl/libGLESv2S3D_adreno.so \
+  vendor/htc/dlxj/proprietary/vendor/lib/egl/libplayback_adreno.so:/system/vendor/lib/egl/libplayback_adreno.so \
   vendor/htc/dlxj/proprietary/vendor/lib/egl/libq3dtools_adreno.so:/system/vendor/lib/egl/libq3dtools_adreno.so \
+  vendor/htc/dlxj/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
   vendor/htc/dlxj/proprietary/vendor/lib/libadreno_utils.so:/system/vendor/lib/libadreno_utils.so \
-  vendor/htc/dlxj/proprietary/vendor/lib/libc2d30-a3xx.so:/system/vendor/lib/libc2d30-a3xx.so \
+  vendor/htc/dlxj/proprietary/vendor/lib/libc2d30-qcom.so:/system/vendor/lib/libc2d30-qcom.so \
   vendor/htc/dlxj/proprietary/vendor/lib/libc2d30.so:/system/vendor/lib/libc2d30.so \
   vendor/htc/dlxj/proprietary/vendor/lib/libC2D2.so:/system/vendor/lib/libC2D2.so \
   vendor/htc/dlxj/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
