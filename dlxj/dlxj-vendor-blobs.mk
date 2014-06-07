@@ -175,6 +175,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/vendor/lib/libC2D2.so:/system/vendor/lib/libC2D2.so \
   vendor/htc/dlxj/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
   vendor/htc/dlxj/proprietary/vendor/lib/libllvm-qcom.so:/system/vendor/lib/libllvm-qcom.so \
+  vendor/htc/dlxj/proprietary/vendor/lib/liblOpenCL.so:/system/vendor/lib/libOpenCL.so \
   vendor/htc/dlxj/proprietary/vendor/lib/librs_adreno_sha1.so:/system/vendor/lib/librs_adreno_sha1.so \
   vendor/htc/dlxj/proprietary/vendor/lib/librs_adreno.so:/system/vendor/lib/librs_adreno.so \
   vendor/htc/dlxj/proprietary/vendor/lib/libRSDriver_adreno.so:/system/vendor/lib/libRSDriver_adreno.so \
