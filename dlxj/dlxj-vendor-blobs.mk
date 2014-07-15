@@ -19,18 +19,13 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/dlxj/proprietary/etc/hldm.bin:system/etc/hldm.bin \
 	vendor/htc/dlxj/proprietary/etc/agps_rm:system/etc/agps_rm \
 	vendor/htc/dlxj/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
-	vendor/htc/dlxj/proprietary/etc/firmware/hcheck.b01:system/etc/firmware/hcheck.b01 \
 	vendor/htc/dlxj/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
 	vendor/htc/dlxj/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
 	vendor/htc/dlxj/proprietary/etc/firmware/lscbuffer_rev2.bin:system/etc/firmware/lscbuffer_rev2.bin \
 	vendor/htc/dlxj/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
 	vendor/htc/dlxj/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-	vendor/htc/dlxj/proprietary/etc/firmware/hcheck.b03:system/etc/firmware/hcheck.b03 \
-	vendor/htc/dlxj/proprietary/etc/firmware/hcheck.mdt:system/etc/firmware/hcheck.mdt \
-	vendor/htc/dlxj/proprietary/etc/firmware/hcheck.b00:system/etc/firmware/hcheck.b00 \
 	vendor/htc/dlxj/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
 	vendor/htc/dlxj/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
-	vendor/htc/dlxj/proprietary/etc/firmware/hcheck.b02:system/etc/firmware/hcheck.b02 \
 	vendor/htc/dlxj/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
 	vendor/htc/dlxj/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
 	vendor/htc/dlxj/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
@@ -74,7 +69,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/dlxj/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
 	vendor/htc/dlxj/proprietary/lib/libdiag.so:system/lib/libdiag.so \
 	vendor/htc/dlxj/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
-	vendor/htc/dlxj/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
 	vendor/htc/dlxj/proprietary/lib/libchromatix_ov2722_hdr.so:system/lib/libchromatix_ov2722_hdr.so \
 	vendor/htc/dlxj/proprietary/lib/libmllite.so:system/lib/libmllite.so \
 	vendor/htc/dlxj/proprietary/lib/libchromatix_imx175_zsl.so:system/lib/libchromatix_imx175_zsl.so \
@@ -164,10 +158,23 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/dlxj/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
 	vendor/htc/dlxj/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
 	vendor/htc/dlxj/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
+	vendor/htc/dlxj/proprietary/vendor/firmware/keymaster.b00:system/vendor/firmware/keymaster.b00 \
+	vendor/htc/dlxj/proprietary/vendor/firmware/keymaster.b01:system/vendor/firmware/keymaster.b01 \
+	vendor/htc/dlxj/proprietary/vendor/firmware/keymaster.b02:system/vendor/firmware/keymaster.b02 \
+	vendor/htc/dlxj/proprietary/vendor/firmware/keymaster.b03:system/vendor/firmware/keymaster.b03 \
+	vendor/htc/dlxj/proprietary/vendor/firmware/keymaster.mdt:system/vendor/firmware/keymaster.mdt \
+	vendor/htc/dlxj/proprietary/etc/firmware/hcheck.b01:system/etc/firmware/hcheck.b01 \
+	vendor/htc/dlxj/proprietary/etc/firmware/hcheck.b03:system/etc/firmware/hcheck.b03 \
+	vendor/htc/dlxj/proprietary/etc/firmware/hcheck.mdt:system/etc/firmware/hcheck.mdt \
+	vendor/htc/dlxj/proprietary/etc/firmware/hcheck.b00:system/etc/firmware/hcheck.b00 \
+	vendor/htc/dlxj/proprietary/etc/firmware/hcheck.b02:system/etc/firmware/hcheck.b02 \
 	vendor/htc/dlxj/proprietary/etc/firmware/BCM4334B0_002.001.013.1352.1458.hcd:system/etc/firmware/BCM4334B0_002.001.013.1352.1458.hcd \
 	vendor/htc/dlxj/proprietary/etc/firmware/fw_bcm4334.bin:system/etc/firmware/fw_bcm4334.bin \
 	vendor/htc/dlxj/proprietary/etc/firmware/fw_bcm4334_apsta.bin:system/etc/firmware/fw_bcm4334_apsta.bin \
 	vendor/htc/dlxj/proprietary/etc/firmware/fw_bcm4334_p2p.bin:system/etc/firmware/fw_bcm4334_p2p.bin \
+	vendor/htc/dlxj/proprietary/bin/qseecomd:system/bin/qseecomd \
+	vendor/htc/dlxj/proprietary/bin/hcheck:system/bin/hcheck \
+	vendor/htc/dlxj/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
 	vendor/htc/dlxj/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	vendor/htc/dlxj/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/htc/dlxj/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
