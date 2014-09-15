@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7wlj/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
         vendor/htc/m7wlj/proprietary/lib/libril-qc-qmi-1.so:/system/lib/libril-qc-qmi-1.so \
         vendor/htc/m7wlj/proprietary/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
-	vendor/htc/m7wlj/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
         vendor/htc/m7wlj/proprietary/bin/felica_agent:/system/bin/felica_agent \
         vendor/htc/m7wlj/proprietary/bin/felica_daemon:/system/bin/felica_daemon \
         vendor/htc/m7wlj/proprietary/bin/felica_startup:/system/bin/felica_startup \
