@@ -202,4 +202,26 @@ PRODUCT_COPY_FILES += \
         vendor/htc/dlxj/proprietary/etc/felica/yodo_android_72x72.png:/system/etc/felica/yodo_android_72x72.png \
         vendor/htc/dlxj/proprietary/etc/felica/mfm.cfg:/system/etc/felica/mfm.cfg \
         vendor/htc/dlxj/proprietary/etc/felica/mfs.cfg:/system/etc/felica/mfs.cfg \
-        vendor/htc/dlxj/proprietary/etc/felica/mfc_falp.cfg:/system/etc/felica/mfc_falp.cfg
+        vendor/htc/dlxj/proprietary/etc/felica/mfc_falp.cfg:/system/etc/felica/mfc_falp.cfg \
+	vendor/htc/dlxj/proprietary/etc/tfa/deftcoefA.speaker:system/etc/tfa/deftcoefA.speaker \
+	vendor/htc/dlxj/proprietary/etc/tfa/deftcoefA_l.speaker:system/etc/tfa/deftcoefA_l.speaker \
+	vendor/htc/dlxj/proprietary/etc/tfa/playback.config:system/etc/tfa/playback.config \
+	vendor/htc/dlxj/proprietary/etc/tfa/playback.eq:system/etc/tfa/playback.eq \
+	vendor/htc/dlxj/proprietary/etc/tfa/playback.preset:system/etc/tfa/playback.preset \
+	vendor/htc/dlxj/proprietary/etc/tfa/playback_l.config:system/etc/tfa/playback_l.config \
+	vendor/htc/dlxj/proprietary/etc/tfa/playback_l.eq:system/etc/tfa/playback_l.eq \
+	vendor/htc/dlxj/proprietary/etc/tfa/playback_l.preset:system/etc/tfa/playback_l.preset \
+	vendor/htc/dlxj/proprietary/etc/tfa/ring.config:system/etc/tfa/ring.config \
+	vendor/htc/dlxj/proprietary/etc/tfa/ring.eq:system/etc/tfa/ring.eq \
+	vendor/htc/dlxj/proprietary/etc/tfa/ring.preset:system/etc/tfa/ring.preset \
+	vendor/htc/dlxj/proprietary/etc/tfa/ring_l.config:system/etc/tfa/ring_l.config \
+	vendor/htc/dlxj/proprietary/etc/tfa/ring_l.eq:system/etc/tfa/ring_l.eq \
+	vendor/htc/dlxj/proprietary/etc/tfa/ring_l.preset:system/etc/tfa/ring_l.preset \
+	vendor/htc/dlxj/proprietary/etc/tfa/tfa9887.patch:system/etc/tfa/tfa9887.patch \
+	vendor/htc/dlxj/proprietary/etc/tfa/tfa9887_l.patch:system/etc/tfa/tfa9887_l.patch \
+	vendor/htc/dlxj/proprietary/etc/tfa/voice.config:system/etc/tfa/voice.config \
+	vendor/htc/dlxj/proprietary/etc/tfa/voice.eq:system/etc/tfa/voice.eq \
+	vendor/htc/dlxj/proprietary/etc/tfa/voice.preset:system/etc/tfa/voice.preset \
+	vendor/htc/dlxj/proprietary/etc/tfa/voice_l.config:system/etc/tfa/voice_l.config \
+	vendor/htc/dlxj/proprietary/etc/tfa/voice_l.eq:system/etc/tfa/voice_l.eq \
+	vendor/htc/dlxj/proprietary/etc/tfa/voice_l.preset:system/etc/tfa/voice_l.preset
